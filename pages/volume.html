@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume Calc</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1>Calculate the volume of a container</h1>
+    <span class="circle"></span>
+    <input id="radius" type="number" placeholder="radius">
+    <button onclick="circleVol()">calc</button>
+    <p id="circleRes">Res: </p>
+
+    <span class="triangle">Cone</span>
+    <input id="hightCone" type="number" placeholder="height">
+    <input id="radiusCone" type="number" placeholder="radius">
+    <button onclick="coneVol()">calc</button>
+    <p id="coneVol">Res: </p>
+
+    <span class="triangle">Triangle Base Pyramid</span>
+    <input id="hightTriPyra" type="number" placeholder="height">
+    <input id="sideA" type="number" placeholder="base side A">
+    <input id="sideB" type="number" placeholder="base side B">
+    <input id="sideC" type="number" placeholder="base side C">
+    <button onclick="triangPyramid()">calc</button>
+    <p id="volTriangPyra">Res: </p>
+
+    <span class="triangle">Square Base Pyramid</span>
+    <input id="hightSquaPyra" type="number" placeholder="height">
+    <input id="sideASquare" type="number" placeholder="base side A">
+    <input id="sideBSquare" type="number" placeholder="base side B">
+    <button onclick="squarePyramid()">calc</button>
+    <p id="volSquarePyra">Res: </p>
+
+    <span class="square"></span>
+    <input id="heightCube" type="number" placeholder="height">
+    <input id="lenghtCube" type="number" placeholder="lenght">
+    <input id="depthCube" type="number" placeholder="depth">
+    <button onclick="volCube()">calc</button>
+    <p id="volCube">Res: </p>
+
+    <script src="../script/volume.js"></script>
+</body>
+</html>

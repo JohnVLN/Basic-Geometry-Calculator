@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perimeter Calc</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1>Calculate the area of a shape</h1>
+    <span class="circle"></span>
+    <input id="radius" type="number" placeholder="radius">
+    <button onclick="circleArea()">calc</button>
+    <p id="circleRes">Res: </p>
+
+    <span class="triangle"></span>
+    <input id="sideA" type="number" placeholder="side A">
+    <input id="sideB" type="number" placeholder="side B">
+    <input id="sideC" type="number" placeholder="side C">
+    <button onclick="triangArea()">calc</button>
+    <p id="triangRes">Res: </p>
+
+    <span class="square"></span>
+    <input id="sideASquare" type="number" placeholder="side A">
+    <input id="sideBSquare" type="number" placeholder="side B">
+    <button onclick="squareArea()">calc</button>
+    <p id="squareRes">Res: </p>
+
+    <script src="../script/area.js"></script>
+</body>
+</html>
