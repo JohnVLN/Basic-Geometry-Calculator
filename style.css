@@ -8,9 +8,7 @@ body {
 }
 h1 {
     color: rgb(222, 141, 88);
-    margin-top: 0px;
-    padding: 1rem;
-    width: 100%;
+    width: 90%;
     text-align: center;
 }
 button {
@@ -34,32 +32,6 @@ p {
     font-size: small;
 }
 img {
-    width: 80px;
-    margin-bottom: 8px;
-}
-
-.circle {
-    height: 80px;
-    width: 80px;
-    background-color: rgb(121, 255, 255);
-    border-radius: 50%;
-    border-color: rgb(0, 0, 0);
-    display: inline-block;
-    margin-bottom: 8px;
-}
-.triangle {
-    width: 0;
-    height: 0;
-    border: 45px solid transparent;
-    border-top: 0;
-    border-bottom: 70px solid rgb(121, 255, 255);
-    margin-bottom: 8px;
-}
-.square {
-    height: 80px;
-    width: 80px;
-    background-color: rgb(121, 255, 255);
-    border-color: rgb(0, 0, 0);
-    display: inline-block;
+    width: 100px;
     margin-bottom: 8px;
 }
